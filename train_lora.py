@@ -5,7 +5,7 @@ from peft import LoraConfig, get_peft_model, TaskType
 from mt_physics_loss import MTQuantumCoherenceLoss
 
 # 基础模型：必须是比赛指定的版本 (需自行向 HuggingFace 请求权限并下载)
-MODEL_NAME = "nvidia/Nemotron-3-Nano-30B"
+MODEL_NAME = "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF"  # 已修正为实际存在的模型名
 
 def main():
     print("Loading Tokenizer...")
