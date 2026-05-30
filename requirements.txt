@@ -1,7 +1,6 @@
 peft
 transformers==4.42.4
 torch
-vllm
 accelerate
 bitsandbytes
 datasets
